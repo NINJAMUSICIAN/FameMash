@@ -34,12 +34,10 @@ public class Basic extends JApplet {
 		paintBackground(g);
 		update();
 		
-		
 		g.drawString("stupid", x, y);
 		
 		repaint();
 	}
-
 }
 
 

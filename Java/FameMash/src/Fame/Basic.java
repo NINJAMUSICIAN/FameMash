@@ -1,3 +1,5 @@
+package Fame;
+
 import java.io.*;
 import java.net.*;
 import java.awt.*;
@@ -35,11 +37,9 @@ public class Basic extends JApplet {
 		update();
 		
 		
-		g.drawString("stupid", x, y);
 		
 		repaint();
 	}
 
 }
-
 
