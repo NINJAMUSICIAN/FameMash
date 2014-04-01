@@ -28,9 +28,10 @@ public class Basic extends JApplet {
 	public void init() {
 		setSize(800, 500);
 		card1 =makeCard();
-		card2 =makeCard();
-		
+		card1.init();
+		card2 = makeCard();
 		card2.setPosition(500, 100);
+		card2.init();
 		
 	}
 
@@ -40,6 +41,8 @@ public class Basic extends JApplet {
 		Card newCard = new Card(sel);
 		return newCard;
 	}
+	
+	
 	
 	public void paintBackground(Graphics g){
 		Dimension d = getSize();
